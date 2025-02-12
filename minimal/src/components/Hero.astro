@@ -1,0 +1,37 @@
+---
+import "@astrojs/image/client";
+---
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>¡Hola! Soy <span class="highlight">[Tu Nombre]</span></h1>
+    <p>Especialista en <strong>Marketing Digital</strong> e <strong>Inteligencia Artificial</strong>.</p>
+    <a href="/contact" class="btn-primary">Trabajemos juntos 🚀</a>
+  </div>
+  <img src="" alt="Mi Foto" class="hero-img" loading="lazy" />
+</section>
+
+<style>
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background: linear-gradient(135deg, #007cf0, #00dfd8);
+  color: white;
+}
+.hero-img {
+  width: 200px;
+  border-radius: 50%;
+}
+.highlight {
+  color: #ffcc00;
+}
+.btn-primary {
+  background-color: #ffcc00;
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+}
+</style>
